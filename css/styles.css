@@ -1,218 +1,218 @@
 :root {
-    --primary-font: 'Roboto', sans-serif;
-    --secondary-font: 'Raleway', sans-serif;
-    --primary-text-color: #212121;
-    --secondary-text-color: #757575;
-    --primary-text-color-dark: #fff;
-    --secondary-text-color-dark: rgba(255, 255, 255, 0.6);
-    --accent-color: #2196F3;
-    --primary-bgc: #fff;
-    --secondary-bgc: #2F303A;
-    --secondary-bgc-dark: #F5F4FA;
-    --studio-header-color: #000;
-    --contact-footer-color: rgba(255, 255, 255, 0.6);
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --primary-text-color-dark: #fff;
+  --secondary-text-color-dark: rgba(255, 255, 255, 0.6);
+  --accent-color: #2196f3;
+  --primary-bgc: #fff;
+  --secondary-bgc: #2f303a;
+  --secondary-bgc-dark: #f5f4fa;
+  --studio-header-color: #000;
+  --contact-footer-color: rgba(255, 255, 255, 0.6);
 }
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 img {
-    display: block;
+  display: block;
 }
 
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 body {
-    font-family: var(--primary-font);
-    color: var(--primary-text-color);
-    background-color: var(--primary-bgc);
+  font-family: var(--primary-font);
+  color: var(--primary-text-color);
+  background-color: var(--primary-bgc);
 }
 
 .logo-web {
-        font-family: var(--secondary-font);
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
-        color: var(--accent-color);
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
 }
 
 .header-logo-studio,
 .footer-logo-studio {
-        font-family: var(--secondary-font);
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
-        color: var(--studio-header-color);
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--studio-header-color);
 }
 
 .menu .link.current {
-        color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .menu-link {
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
-        color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
 }
 
 .contact-info {
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
-        color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
 }
 
 .link:hover,
 .link:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .btn {
-    font-family: inherit;
-    color: var(--primary-text-color-dark);
-    background-color: var(--accent-color);
+  font-family: inherit;
+  color: var(--primary-text-color-dark);
+  background-color: var(--accent-color);
 }
 
 .btn:hover,
 .btn:focus {
-    background-color: var(--accent-color);
+  background-color: var(--accent-color);
 }
 
 .hero {
-    background-color: var(--secondary-bgc);
+  background-color: var(--secondary-bgc);
 }
 
 .hero-title {
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 1.36;
-        letter-spacing: 0.06em;
-        text-align: center;
-        text-transform: uppercase;
-        color: var(--primary-text-color-dark);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--primary-text-color-dark);
 }
 
 .visually-hidden {
-        position: absolute;
-        white-space: nowrap;
-        width: 1px;
-        height: 1px;
-        overflow: hidden;
-        border: 0;
-        padding: 0;
-        clip: rect(0 0 0 0);
-        clip-path: inset(50%);
-        margin: -1px;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 .features-list .title {
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .features-list .text {
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 
 .work-title,
 .team-title {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.17;
-        text-align: center;
-        letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .team {
-        background-color: var(--secondary-bgc-dark);
+  background-color: var(--secondary-bgc-dark);
 }
 
 .team-list .name {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.19;
-        text-align: center;
-        letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .position {
-        font-size: 16px;
-        line-height: 1.19;
-        text-align: center;
-        letter-spacing: 0.03em;
-        color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 
 .footer-logo-studio {
-        color: var(--primary-text-color-dark);
+  color: var(--primary-text-color-dark);
 }
 
 .footer {
-    background-color: var(--secondary-bgc);
+  background-color: var(--secondary-bgc);
 }
 
 .address-link {
-        font-style: normal;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        color: var(--primary-text-color-dark);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color-dark);
 }
 
 .address-link:hover,
 .address-link:focus {
-    color: var(--primary-text-color-dark);
+  color: var(--primary-text-color-dark);
 }
 
 .contact-link {
-        font-style: normal;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        color: var(--contact-footer-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--contact-footer-color);
 }
 
 .examples .title {
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2;
-        letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .examples .text {
-        font-size: 16px;
-        line-height: 1.88;
-        letter-spacing: 0.03em;
-        color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 
 .btn-nav {
-        font-family: inherit;
-        border: 0;
-        color: var(--primary-text-color);
-        background-color: var(--secondary-bgc-dark);
+  font-family: inherit;
+  border: 0;
+  color: var(--primary-text-color);
+  background-color: var(--secondary-bgc-dark);
 }
 
 .btn-nav:hover,
 .btn-nav:focus {
-        color: var(--primary-text-color-dark);
-        background-color: var(--accent-color);
+  color: var(--primary-text-color-dark);
+  background-color: var(--accent-color);
 }
