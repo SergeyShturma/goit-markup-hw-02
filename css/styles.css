@@ -6,6 +6,7 @@
   --primary-text-color-dark: #fff;
   --secondary-text-color-dark: rgba(255, 255, 255, 0.6);
   --accent-color: #2196f3;
+  --secondary-accent-color: #188ce8;
   --primary-bgc: #fff;
   --secondary-bgc: #2f303a;
   --secondary-bgc-dark: #f5f4fa;
@@ -33,6 +34,8 @@ body {
   font-family: var(--primary-font);
   color: var(--primary-text-color);
   background-color: var(--primary-bgc);
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 
 .logo-web {
@@ -40,7 +43,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 
@@ -50,7 +52,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--studio-header-color);
 }
 
@@ -60,7 +61,6 @@ body {
 
 .menu-link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
@@ -68,7 +68,6 @@ body {
 
 .contact-info {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
@@ -81,13 +80,17 @@ body {
 
 .btn {
   font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
   color: var(--primary-text-color-dark);
   background-color: var(--accent-color);
 }
 
 .btn:hover,
 .btn:focus {
-  background-color: var(--accent-color);
+  background-color: var(--secondary-accent-color);
 }
 
 .hero {
@@ -119,16 +122,12 @@ body {
 
 .features-list .title {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .features-list .text {
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
@@ -138,7 +137,6 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .team {
@@ -150,14 +148,12 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .position {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
@@ -171,9 +167,7 @@ body {
 
 .address-link {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color-dark);
 }
 
@@ -184,9 +178,7 @@ body {
 
 .contact-link {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--contact-footer-color);
 }
 
@@ -200,12 +192,15 @@ body {
 .examples .text {
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
 .btn-nav {
   font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
   border: 0;
   color: var(--primary-text-color);
   background-color: var(--secondary-bgc-dark);
